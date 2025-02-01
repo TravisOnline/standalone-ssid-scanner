@@ -28,3 +28,6 @@ airmon-ng start wlan1
 airmon-ng
 python collector.py wlanmon1
 ```
+Terminal output is *very* messy when using a wide-range network adapter due to how the source file is written and read, and in conjunction with threading.
+This is low priority as I'm just interested in the file output for another project sorry lol!
+![alt text](https://i.kym-cdn.com/entries/icons/original/000/041/998/Screen_Shot_2022-09-23_at_10.40.58_AM.jpg)
