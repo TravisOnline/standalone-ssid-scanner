@@ -40,7 +40,7 @@ def remove_duplicates():
     global _localfile
     # global _tempfile
 
-    lf = pandas.read_csv(_localfile).drop_duplicates('SSID',keep='first')
+    lf = pandas.read_csv(_localfile).drop_duplicates('BSSID',keep='first')
     lf.index_col=False
     lf.to_csv(_localfile, index=False, header=True)
 
